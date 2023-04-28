@@ -25,7 +25,7 @@ function mintNFT (_name, _boxingGloves) {
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs () {
- for(let i = 0; i , NFTs.length; i++) {
+ for(let i = 0; i < NFTs.length; i++) {
    console.log(NFTs[i]);
  }
 }
